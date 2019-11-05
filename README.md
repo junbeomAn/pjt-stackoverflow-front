@@ -1,8 +1,8 @@
 ## `front-end stack`
 
-React.js, GraphQL, Solidity(Smart Contract)
+React.js, GraphQL Apollo, Solidity(Smart Contract)
 
-
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
