@@ -1,74 +1,32 @@
-## `front-end stack`
+# 개발자를 위한 Q&A 페이지
 
-React.js, GraphQL Apollo, Solidity(Smart Contract)
+## 프론트 엔드 스택
 
-<hr>
+- React.js 
+- GraphQL Apollo 
+- Solidity(Smart Contract)
+- Passport.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 기능
 
-## Available Scripts
+### 연동 로그인 기능
+  - Github 로그인 기능(only)
+  - 세션 유지. 로그아웃 하지 않는 한 로그인 상태 지속가능
 
-In the project directory, you can run:
+### 질문작성 기능
+  - 질문 작성시에 스마트 컨트랙트를 적용하여 질문 답변에 대한 보상으로 줄 이더리움 제시 가능.
+  - 크롬 브라우저 익스텐션 MetaMask(전자지갑) 사용
+  - 작성 시에 마크다운 기능 사용 가능 
 
-### `npm start`
+### 질문조회 기능
+  - 질문 목록에서 조회가능
+  - 질문 조회 후 해당 질문에 대해 답변 가능(로그인 했을 시만)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 질문삭제 및 수정 기능
+  - 글쓴이일 경우 해당 질문 삭제 가능
+  - 글쓴이일 경우 해당 질문 수정 가능
+  - 수정 시엔 따로 페이지에 들어가지 않고 해당 컴포넌트에서 바로 수정 후 적용.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### 질문에대한 답변 기능
+  - 질문을 조회하는 사람은 답변 작성가능
+  - 답변 또한 수정 및 삭제가능
